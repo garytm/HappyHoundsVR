@@ -1,0 +1,13 @@
+﻿using UnityEngine.Audio;
+using UnityEngine;
+
+[System.Serializable]
+public class Sound
+{
+    public string clipName;
+    public AudioClip audioClip;
+    public bool loopSound;
+
+    [HideInInspector]
+    public AudioSource audioSource;
+}
